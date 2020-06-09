@@ -53,16 +53,16 @@ dnaFlag
 const phrase = $("input#textField").val();
 let word = [];
 
-for (i=0; i < phrase.length; i += 1) {
-  if (phrase.charAt(i) === "a"  phrase.charAt(i) === "e"  phrase.charAt(i) === "i"  phrase.charAt(i) === "o"  phrase.charAt(i) === "u") {
-    let vowel = phrase.charAt(i);
-    vowel.replace("-");
+// for (i=0; i < phrase.length; i += 1) {
+//   if (phrase.charAt(i) === "a"  phrase.charAt(i) === "e"  phrase.charAt(i) === "i"  phrase.charAt(i) === "o"  phrase.charAt(i) === "u") {
+//     let vowel = phrase.charAt(i);
+//     vowel.replace("-");
 
-    word.push(vowel);
-    $("#output").append(word[i]);
-  }
-  else {
-    word.push($(phrase.charAt(i)).val());
-    $("#output").append(word[i]);
-  }
-}
+//     word.push(vowel);
+//     $("#output").append(word[i]);
+//   }
+//   else {
+//     word.push($(phrase.charAt(i)).val());
+//     $("#output").append(word[i]);
+//   }
+// }
